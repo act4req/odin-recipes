@@ -1,0 +1,81 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #444;
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+li {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+/* Images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Home link specific styling */
+a[href="../index.html"] {
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: bold;
+}
